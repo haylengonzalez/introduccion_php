@@ -92,3 +92,68 @@
 
 </body>
 </html>
+
+
+
+   // suma:+
+   // resta: -
+   // Multiplicación:*
+   // División:/
+   // Modulo:%
+   //Incremento: ++
+   // Decremento: --
+   // Exponenciación: **
+
+   $x = 9;
+   echo ("x = ".$x."<br>");
+   $y = 3;
+   echo ("x = ".$y."<br>");
+   $z = 5;
+   echo ("x = ".$z."<br>");
+   $suma = $x + $y;
+   $resta = $x - $z;
+   $multiplicacion =$suma*$resta;
+   $final =$multiplicacion++;
+
+   //Operadores de comparación
+   // igual: ==
+   // Idéntico: ===
+   // Diferente: !=
+   //Menor: <
+   //Mayor : >
+   //Menor o igual: <=
+   //Mayor o igual: >=
+   $x = 5;
+    $y = 5;
+    echo ( $x == $y);
+    echo ( $x <= $y);
+    echo "<br>";
+// AND o &&: $a && sb es true si $a y $b son verdaderos 
+   // OR o ||: $a|| sb es true si $a o $b son verdaderos 
+   // XOR: $a XOR $b es true si $a es verdadero o $b es verdadero, pero no los dos 
+   // !: $a es true si $a es False
+ $x = 4;
+   $y = 5;
+   if(($x ==4) && ($y == 5))
+   {
+        print("Estas en lo correcto");
+   }
+   echo "<br>";
+   if(($x==4) OR ($y==3))
+   {
+        print("La segunda operación también es correcta");
+   }
+otro
+// para la union de cadenas se emplea el punto (.)
+   $t = "Ejemplo";
+   $w = 'ola';
+   $x = "de";
+   $y = "cadenas";
+   $z = '';
+   $resultado1 = $t;
+   $resultado2 = $t.$z.$x.$z.$w.$z.$x.$z.$y;
+   echo '<b><h1>';
+   echo $resultado1;
+   echo '<hr>';
+   echo $resultado2;
+   echo '</b></h1>';
